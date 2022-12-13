@@ -17,8 +17,15 @@
   }
 }
 
-* {
-  font-family: helvetica, arial, sans-serif;
+h1, h2, h3, h4 {
+	font-family: 'Sora', sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+}
+p {
+	font-family: 'Sora', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 body {
