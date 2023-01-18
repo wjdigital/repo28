@@ -550,6 +550,13 @@ function getParams() {
 <script type="text/javascript">
 	document.addEventListener("mouseleave", function(e){
 		
+		// Redireciona o usuário na intenção de sair da página (Desktop)
+    	if( e.clientY < 0 )
+    		{
+         		window.location.href = '';
+    		}
+		}, false);
+		
 
 		// Redireciona o usuário ao clicar no botão de voltar (Mobile)
 		var back_link = 'https://app.opiniaoremunerada.net/?src=Redirect&utm_source=mobile';
