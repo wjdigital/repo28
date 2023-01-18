@@ -553,12 +553,12 @@ function getParams() {
 		// Redireciona o usuário na intenção de sair da página (Desktop)
     	if( e.clientY < 0 )
     		{
-         		window.location.href = './#checkout?src=pvrecuperacao&utm_source=pc';
+         		window.location.href = './redirect.html';
     		}
 		}, false);
 
 		// Redireciona o usuário ao clicar no botão de voltar (Mobile)
-		var back_link = 'https://app.opiniaoremunerada.net/?src=pvrecuperacao&utm_source=mobile';
+		var back_link = './redirect.html';
 
 		history.pushState({},"",location.href);
 	    history.pushState({},"",location.href);
